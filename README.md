@@ -94,7 +94,7 @@ Feel free to explore each feature and adapt the project to suit your specific ne
 
 ## Live Demo
 
-The application is deployed on [Vercel](https://vercel.com/) at [https://ticket-booking-system-lancemeup.vercel.app/](https://ticket-booking-system-lancemeup.vercel.app/).
+The application is deployed on 
 
 ## Author
 
