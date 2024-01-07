@@ -3,6 +3,7 @@
 import * as z from "zod";
 import { useState, useTransition } from "react";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 
@@ -100,6 +101,14 @@ const LoginForm = () => {
                       type="password"
                     />
                   </FormControl>
+                  <Button
+                    size="sm"
+                    variant="link"
+                    asChild
+                    className="px-0 font-normal"
+                  >
+                    <Link href="/auth/reset">Forgot password?</Link>
+                  </Button>
                   <FormMessage />
                 </FormItem>
               )}
