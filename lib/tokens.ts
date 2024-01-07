@@ -25,6 +25,8 @@ export const generatePasswordResetToken = async (email: string) => {
       expires,
     },
   });
+
+  return passwordResetToken;
 };
 
 export const generateVerificationToken = async (email: string) => {
