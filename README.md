@@ -101,4 +101,8 @@ The application is deployed on [here](https://db-next-auth-v5.vercel.app/).
 ## Author
 
 - Diwash Bhattarai
-- 9863447740, diwashb999@gmail.com
+- diwashb999@gmail.com
+
+## Credits
+
+This project was built by following a tutorial from [Code with Antonio ](https://www.youtube.com/watch?v=1MTyCvS05V4)
